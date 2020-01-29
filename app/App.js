@@ -33,7 +33,7 @@ const App: () => React$Node = () => {
             <Fog width={100} height={100} fill="#c7ecee" />
           </View>
           <View style={styles.block}>
-            <Illustration width={Dimensions.get('window').width} height={Dimensions.get('window').width} />
+            <Illustration width={Dimensions.get('window').width - 40} height={Dimensions.get('window').width - 40} />
           </View>
         </ScrollView>
       </SafeAreaView>
